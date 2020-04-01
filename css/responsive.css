@@ -1,8 +1,4 @@
 @media screen and (max-width: 1550px) {
-  body {
-    overflow-x: hidden;
-  }
-
   header {
     padding-bottom: 50px;
   }
@@ -490,10 +486,6 @@
 }
 
 @media screen and (max-width: 799px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .container3-section1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -523,10 +515,6 @@
 }
 
 @media screen and (max-width: 765px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .container_1 {
     padding-bottom: 250px;
   }
@@ -549,10 +537,6 @@
 }
 
 @media screen and (max-width: 540px) {
-  body {
-    overflow-x: hidden;
-  }
-
   .container3-section1 {
     display: flex;
     flex-direction: column;
@@ -624,7 +608,7 @@
   }
 
   .nav-links {
-    position: absolute;
+    position: fixed;
     right: 0px;
     height: 100vh;
     top: 15vh;
